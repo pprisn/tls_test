@@ -1,0 +1,66 @@
+
+---------------------------------------------------------
+Started at 2020-01-02 23:43:38
+
+**** Create server private key
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...................................................................++++
+..........++++
+e is 65537 (0x010001)
+./030.make-server.sh: 1: ./030.make-server.sh: sergey.popurey@russianpost.ru: not found
+ERROR: Common EMAILADDRESS is missing
+
+---------------------------------------------------------
+Started at 2020-01-02 23:44:20
+
+**** Create server private key
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............++++
+...........................................................................................................................................++++
+e is 65537 (0x010001)
+
+**** Create server certificate request
+req: Skipping unknown attribute "EMAILADDRESS"
+
+**** Create server certificate from certificate request
+Signature ok
+subject=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, CN = localhost
+Getting CA Private Key
+
+**** Export PKCS\#12 certificate
+
+**** Show generated server certificate info
+issuer=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, CN = Lipetsk_UFPS_Certificate_Autority
+subject=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, CN = localhost
+notBefore=Jan  2 20:44:21 2020 GMT
+notAfter=Dec 30 20:44:21 2029 GMT
+SHA1 Fingerprint=2A:13:3E:CB:F9:A2:88:37:4F:F5:3C:75:C1:DC:AF:BB:A8:13:3B:85
+
+Finished at 2020-01-02 23:44:21
+
+---------------------------------------------------------
+Started at 2020-01-02 23:45:55
+
+**** Create server private key
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...........++++
+...............................++++
+e is 65537 (0x010001)
+
+**** Create server certificate request
+
+**** Create server certificate from certificate request
+Signature ok
+subject=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, emailAddress = sergey.popurey@russianpost.ru, CN = localhost
+Getting CA Private Key
+
+**** Export PKCS\#12 certificate
+
+**** Show generated server certificate info
+issuer=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, CN = Lipetsk_UFPS_Certificate_Autority
+subject=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, emailAddress = sergey.popurey@russianpost.ru, CN = localhost
+notBefore=Jan  2 20:45:55 2020 GMT
+notAfter=Dec 30 20:45:55 2029 GMT
+SHA1 Fingerprint=05:26:F5:4B:3E:26:2F:A8:4C:2B:6A:BE:8A:0F:7E:BF:69:59:C7:8E
+
+Finished at 2020-01-02 23:45:56

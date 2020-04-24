@@ -1,0 +1,12 @@
+
+---------------------------------------------------------
+Started at 2020-01-02 23:46:34
+Copy web server key file
+mv: не удалось выполнить stat для '/home/ppri/go/src/github.com/pprisn/aster4mchs/ssl/www/server.key': Нет такого файла или каталога
+Copy web server certificate file
+mv: не удалось выполнить stat для '/home/ppri/go/src/github.com/pprisn/aster4mchs/ssl/www/server.crt': Нет такого файла или каталога
+Copy web server PKCS\#12 certificate file
+mv: не удалось выполнить stat для '/home/ppri/go/src/github.com/pprisn/aster4mchs/ssl/www/server.p12': Нет такого файла или каталога
+Delete web server certificate request
+
+Finished at 2020-01-02 23:46:34

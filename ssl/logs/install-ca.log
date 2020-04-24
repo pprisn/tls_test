@@ -1,0 +1,13 @@
+
+---------------------------------------------------------
+Started at 2020-01-02 23:41:05
+Copy root key file
+mv: не удалось выполнить stat для '/home/ppri/go/src/github.com/pprisn/aster4mchs/ssl/ca/ca.key': Нет такого файла или каталога
+Copy root certificate file
+mv: не удалось выполнить stat для '/home/ppri/go/src/github.com/pprisn/aster4mchs/ssl/ca/ca.crt': Нет такого файла или каталога
+Copy root PKCS\#12 certificate file
+mv: не удалось выполнить stat для '/home/ppri/go/src/github.com/pprisn/aster4mchs/ssl/ca/ca.p12': Нет такого файла или каталога
+Delete certificate serial file
+mv: не удалось выполнить stat для '/home/ppri/go/src/github.com/pprisn/aster4mchs/ssl/ca/ca.srl': Нет такого файла или каталога
+
+Finished at 2020-01-02 23:41:05

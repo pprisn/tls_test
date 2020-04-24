@@ -1,0 +1,29 @@
+
+---------------------------------------------------------
+Started at 2020-01-02 23:49:00
+Generate certificate for client pprisn
+
+**** Create client private key
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............................++++
+.....................++++
+e is 65537 (0x010001)
+
+**** Create client certificate request
+
+**** Create client certificate from certificate request
+Signature ok
+subject=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, emailAddress = sergey.popurey@russianpost.ru, CN = pprisn
+Getting CA Private Key
+
+**** Export PKCS\#12 certificate
+
+**** Show generated client certificate info
+issuer=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, CN = Lipetsk_UFPS_Certificate_Autority
+subject=C = RU, ST = RU, L = Lipetsk, O = Russan_Post, OU = UFPS_GOCHS, emailAddress = sergey.popurey@russianpost.ru, CN = pprisn
+notBefore=Jan  2 20:49:01 2020 GMT
+notAfter=Dec 30 20:49:01 2029 GMT
+SHA1 Fingerprint=3B:1B:C9:67:BE:BF:36:D6:A0:B9:FF:20:A0:54:27:89:A8:8A:AC:17
+serial=31F170A66CB6C0869FFA25F4DB6D5CA501FCA5C8
+
+Finished at 2020-01-02 23:49:01
